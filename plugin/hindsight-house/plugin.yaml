@@ -1,0 +1,6 @@
+name: hindsight-house
+version: 0.1.0
+description: "Memory provider: stock Hindsight plus a recall policy (exclusion tags, result cap, notice cut, short-query context), guarded against stock drift."
+kind: exclusive
+hooks: []
+requires_env: []

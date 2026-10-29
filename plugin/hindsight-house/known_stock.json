@@ -1,0 +1,37 @@
+{
+ "revisions": {
+  "1.2.3": {
+   "hashes": {
+    "_TOOL_HANDLERS": "7288fcb0208ec16f",
+    "_apply_recall_settings": "8e00346e134aadf3",
+    "_apply_retain_policy": "aa16af4f18c0a5fc",
+    "_do_recall": "ca0f8d1226ae87de",
+    "_recall": "7d6b2ae8791c9362",
+    "_recall_disabled": "1c9b69e883ff6210",
+    "_run_hindsight_operation": "b88a3182a9d78776",
+    "_tool_recall": "a9942b06bd5f3fff",
+    "handle_tool_call": "187e80e3d5fbecef",
+    "on_memory_write": "1db709af204a42e0",
+    "post_setup": "067804defc3a692b",
+    "prefetch": "944b8108a3242f00",
+    "queue_prefetch": "e025a3e240e9e173"
+   },
+   "signatures": {
+    "_apply_recall_settings": "self, cfg: dict",
+    "_apply_retain_policy": "self, cfg: dict",
+    "_do_recall": "self, query: str",
+    "_recall": "self, query: str",
+    "_recall_disabled": "self",
+    "_run_hindsight_operation": "self, operation",
+    "_tool_recall": "self, args: dict",
+    "handle_tool_call": "self, tool_name: str, args: dict, **kwargs",
+    "on_memory_write": "self, action: str, target: str, content: str, metadata: Dict[str, Any] | None=None",
+    "post_setup": "self, hermes_home: str, config: dict",
+    "prefetch": "self, query: str, *, session_id: str=''",
+    "queue_prefetch": "self, query: str, *, session_id: str=''"
+   },
+   "source_sha256_12": "1b1436b80e27"
+  }
+ },
+ "schema": 1
+}
